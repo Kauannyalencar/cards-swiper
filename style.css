@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa";
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle , #22665e 8%, #454f67 90%);
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.swiper{
+    width: 280px;
+    height: 500px;
+    padding: 50px 0;
+}
+
+.swiper-slide{
+    position: relative;
+    box-shadow: 0 15px 30px rgb(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.swiper-slide h3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 20px 20px 20px;
+    padding: 7px 10px;
+    margin: 0 20px 20px 20px;
+    font-weight: 800;
+    font-size: 0.7rem;
+    border-radius: 20px;
+    word-spacing: -1px;
+    background-color: #fff;
+    box-shadow: inset 2px -20px 20px #bfbfbf, inset 3px -3px 3px #808080;
+}
+
+.swiper-slide h3 span{
+    font-size: 1.1rem;
+    color: blue;
+    font-weight: 900;
+}
+
+
+.swiper-slide h2{
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    left: 0;
+    color:#fff;
+    font-weight: 900;
+    font-size: 1.4rem;
+    margin: 0px 0px 20px 20px;
+}
+
+.swiper-slide:nth-child(1){
+    background: linear-gradient(to top, #0f2027, #2c536400), url("./imagens/poke-card.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper-slide:nth-child(2){
+    background: linear-gradient(to top, #0f2027, #2c536400), url("./imagens/yurucamp-card.jpe");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper-slide:nth-child(3){
+    background: linear-gradient(to top, #0f2027, #2c536400), url("./imagens/onepiece-card.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper-slide:nth-child(4){
+    background: linear-gradient(to top, #0f2027, #2c536400), url("./imagens/spy-family-card.jpe");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper-slide:nth-child(5){
+    background: linear-gradient(to top, #0f2027, #2c536400), url("./imagens/hajime-no-ippo-card.jpe");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper-slide:nth-child(6){
+    background: linear-gradient(to top, #0f2027, #2c536400), url("./imagens/sora-yori-card.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.copy{
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+}
