@@ -6,4 +6,4 @@
 <li>HTML para a estrutura</li>
 <li>CSS para a estilização</li>
 <li>JavaScript para manipular o swiper e os elementos na tela</li>
-<p><a href="">Deploy</a></p>
+<p><a href="https://kauannyalencar.github.io/cards-swiper/" target="_blank">Deploy</a></p>
